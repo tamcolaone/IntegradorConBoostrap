@@ -1,0 +1,136 @@
+.invert {
+    filter: invert(1);
+    -webkit-filter: invert(1);
+}
+.shadow-img {
+    filter: drop-shadow(2px 4px 6px black);
+    -webkit-filter: drop-shadow(2px 4px 6px black);
+}
+
+/* z index */
+ .z0 {
+    z-index: 0;
+ }
+.z1 {
+    z-index: 1;
+}
+.z2{
+    z-index: 2;
+}
+.z3{
+    z-index: 3;
+}
+
+
+
+/* Header*/
+
+
+nav div .navbar-nav a {
+    color: rgb(224, 243, 162);
+}
+ nav div .navbar-nav a:hover {
+    color:rgb(237, 158, 174)
+ }
+nav div .navbar-nav .active{
+    color:rgb(171, 221, 147) !important
+
+}
+nav div .navbar-nav .disabled{
+    color:rgb(198, 99, 118) !important
+
+}
+
+/* Main */
+
+.banner {
+    height: 75vh;
+}
+.banner img {
+    height: 100%;
+    object-fit: cover;
+}
+
+.titleCards {
+    display: flex;
+    margin: 5px 0;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+}
+
+
+.pub {
+    margin: 25px 0;
+    display: flex;
+    height: 50vh;
+    gap: 2px;
+    color: white;
+}
+
+.pub .image {
+    background-image: url("https://cdn.pixabay.com/photo/2016/09/10/11/11/jazz-1658886__340.jpg");
+    height: 100%;
+    width: 150%;
+    background-size: cover;
+
+}
+
+.pub .text {
+    background-color:rgb(145, 164, 55);
+    padding: 15px;
+
+}
+
+.pub .text div:first-child{
+    font-weight: bold;
+    margin-bottom:15px ;
+}
+
+.pub .text .button {
+    margin: 15px 0px;
+    background: transparent;
+    color: white;
+    cursor: pointer;
+    border: 2px solid white;
+    padding: 5px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+/*formulario*/
+.Anotate>p {
+    display: flex;
+    justify-content: center;
+    color: black;
+    gap: 4px;
+    
+}
+.nuestras   {
+    text-transform: none;
+    color: black;
+}
+
+
+ .row {
+    padding: 4px;
+    width: 100%;
+    margin-top: auto;
+}
+
+
+ .formulario {
+    display:grid;
+   justify-content: center;
+font-family: 'Open Sans', sans-serif;
+}
+
+.formu>p {
+    font-family: 'Open Sans', sans-serif;
+    color: rgba(0 0 0 / 36%);
+    
+}
